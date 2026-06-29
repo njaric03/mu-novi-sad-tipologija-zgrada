@@ -1,0 +1,28 @@
+# Verzije su zaključane (pinned) na one sa kojima su dobijeni rezultati u repozitorijumu,
+# da bi reprodukcija dala identične brojeve/slike i posle budućih izdanja biblioteka.
+
+# Geospatial
+geopandas==1.1.4
+pyogrio==0.13.0
+shapely==2.1.2
+rasterio==1.4.4
+pyproj==3.7.2
+numpy==2.4.6
+pandas==2.3.3
+pyarrow==24.0.0
+scipy==1.17.1
+
+# Data acquisition
+overturemaps==1.0.1        # Overture building footprints (CLI)
+openeo==0.50.0             # Sentinel-2 (Copernicus Data Space)
+osmnx==2.1.0               # OpenStreetMap POIs + road network
+
+# ML + visualization
+scikit-learn==1.9.0
+matplotlib==3.11.0
+contextily==1.7.0          # basemap ispod mapa (CartoDB Positron)
+matplotlib-scalebar==0.9.0 # skala na mapama
+folium==0.20.0             # interaktivna mapa (HTML)
+
+# Notebook
+jupyter==1.1.1
