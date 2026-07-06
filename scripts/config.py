@@ -43,7 +43,7 @@ K_OP = 4         # operativno (kanonsko) k
 
 # vizualizacija: nazivi i boje tipova po broju klastera k
 LABELS = {
-    2: {"names": {0: "Ruralno/raspršeno", 1: "Urbano/izgrađeno"},
+    2: {"names": {0: "Ruralno/rasuto", 1: "Urbano/izgrađeno"},
         "colors": {0: "#4daf4a", 1: "#377eb8"}},
     3: {"names": {0: "Ruralno/retko", 1: "Širi urbani tip", 2: "Stambeno tkivo"},
         "colors": {0: "#4daf4a", 1: "#e41a1c", 2: "#377eb8"}},
