@@ -6,6 +6,26 @@ __pycache__/
 venv/
 env/
 
-# Data (large; reproducible)
+# Data (large; reproducible by running main.py)
 data/
+
+# OSMnx HTTP cache
 cache/
+
+# Docs (not versioned)
+docs/
+
+# Local run log
+rerun_log.txt
+
+# Large / generated outputs (keep small PNG + CSV in results/)
+results/*.tif
+results/*.tiff
+results/*.html
+*.npy
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
