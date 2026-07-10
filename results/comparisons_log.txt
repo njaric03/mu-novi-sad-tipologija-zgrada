@@ -1,0 +1,19 @@
+atributa 17 | PCA komponenti 12
+
+=== 1. Ward vs k-means (uzorak 30k, ARI po k) ===
+  k=2: ARI = 0.214
+  k=3: ARI = 0.479
+  k=4: ARI = 0.482
+  k=5: ARI = 0.492
+
+=== 2. redukcija dimenzionalnosti i podskup atributa (k=2 i k=4) ===
+  pun skup (21 atributa): 15 PCA komponenti
+  k=2: silueta PCA/uzak(17) 0.263 | RandProj 0.307 | pun-21 0.225 | ARI PCA vs RandProj 0.279 | ARI uzak vs pun 0.862
+  k=4: silueta PCA/uzak(17) 0.225 | RandProj 0.236 | pun-21 0.191 | ARI PCA vs RandProj 0.696 | ARI uzak vs pun 0.741
+  (siluete su merene u tri različita prostora, pa nisu direktno uporedive; merodavan je ARI)
+
+=== 3. konfiguracije k-means (PCA, k=4) ===
+  init=k-means++  n_init= 1  silueta=0.225
+  init=k-means++  n_init=10  silueta=0.225
+  init=random     n_init= 1  silueta=0.225
+  init=random     n_init=10  silueta=0.225

@@ -1,0 +1,3 @@
+Ward stabilnost izbora k (21 atributa): 20 nezavisnih uzoraka, n=30000
+raspodela k (najveci skok):  {2: 16, 3: 4}
+raspodela k (drugi skok):    {2: 4, 3: 4, 4: 12}

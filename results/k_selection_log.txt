@@ -1,0 +1,36 @@
+features 17 | PCA komponenti 12
+
+=== 1. broj klastera: Ward dendrogram ===
+poslednjih 10 rastojanja spajanja: 146.7  149.7  157.4  171.8  194.4  221.8  254.5  266.4  319.3  441.3
+najveći skok -> k=2; drugi po veličini -> k=3
+WROTE results/dendrogram.png
+
+=== 1b. stabilnost izbora k (20 nezavisnih uzoraka) ===
+  uzorak 0 (n=30000): najveći skok -> k=2, drugi -> k=3
+  uzorak 1 (n=30000): najveći skok -> k=2, drugi -> k=4
+  uzorak 2 (n=30000): najveći skok -> k=2, drugi -> k=4
+  uzorak 3 (n=30000): najveći skok -> k=2, drugi -> k=3
+  uzorak 4 (n=30000): najveći skok -> k=2, drugi -> k=3
+  uzorak 5 (n=30000): najveći skok -> k=2, drugi -> k=4
+  uzorak 6 (n=30000): najveći skok -> k=2, drugi -> k=3
+  uzorak 7 (n=30000): najveći skok -> k=2, drugi -> k=4
+  uzorak 8 (n=30000): najveći skok -> k=3, drugi -> k=2
+  uzorak 9 (n=30000): najveći skok -> k=2, drugi -> k=4
+  uzorak 10 (n=30000): najveći skok -> k=2, drugi -> k=3
+  uzorak 11 (n=30000): najveći skok -> k=2, drugi -> k=3
+  uzorak 12 (n=30000): najveći skok -> k=2, drugi -> k=7
+  uzorak 13 (n=30000): najveći skok -> k=2, drugi -> k=3
+  uzorak 14 (n=30000): najveći skok -> k=2, drugi -> k=3
+  uzorak 15 (n=30000): najveći skok -> k=3, drugi -> k=2
+  uzorak 16 (n=30000): najveći skok -> k=3, drugi -> k=2
+  uzorak 17 (n=30000): najveći skok -> k=2, drugi -> k=3
+  uzorak 18 (n=30000): najveći skok -> k=3, drugi -> k=2
+  uzorak 19 (n=30000): najveći skok -> k=3, drugi -> k=2
+  raspodela k (najveći skok): {2: 15, 3: 5}
+  raspodela k (drugi skok):   {2: 5, 3: 9, 4: 5, 7: 1}
+WROTE results/k_selection_stability.csv + .txt
+
+=== 2. (opisno) elbow + silueta po k ===
+k        :     2      3      4      5      6      7      8      9     10
+silueta  : 0.263  0.247  0.225  0.231  0.232  0.195  0.200  0.203  0.209
+WROTE results/k_selection.png
